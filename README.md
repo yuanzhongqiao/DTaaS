@@ -1,54 +1,51 @@
-# :factory: :left_right_arrow: :busts_in_silhouette: Digital Twin as a Service
-
-## :grinning: Motivation
-
-The Digital Twin as a Service (DTaaS) software platform is useful
-to <font color="orange"> **Build, Use and Share** </font> digital twins (DTs).
-
-<font color="orange">**Build**</font>: The DTs are built on the software platform
-using the reusable DT components available on the platform.
-
-<font color="orange">**Use**</font>: Use the DTs on the software platform.
-
-<font color="orange">**Share**</font>: Share ready to use DTs with other users.
-It is also possible to share the services offered by one DT with other users.
-
-## :rocket: Install and Use
-
-Please use the latest release available on
-the [releases page](https://github.com/INTO-CPS-Association/DTaaS/releases)
-and its [documentation](https://into-cps-association.github.io/DTaaS/)
-to install and use the DTaaS software platform.
-
-You are welcome to open an [issue](https://github.com/INTO-CPS-Association/DTaaS/issues/new/choose)
-if there is a suggestion to improve the software.
-
-## :hammer_and_wrench: Development Setup
-
-This is a mono repo containing code for
-both the web client and the microservices code base.
-The [web client](client),
-[library](servers/lib) and
-[runner](servers/execution/runner)
-microservices are functional at present.
-Everything else is a work-in-progress.
-
-Please see the
-[developer documentation](https://into-cps-association.github.io/DTaaS/development/developer/index.html)
-for more details.
-
-## :balance_scale: License
-
-This software is owned by
-[The INTO-CPS Association](https://into-cps.org/)
-and is available under [the INTO-CPS License](./LICENSE.md).
-
-The DTaaS software platform uses
-[Træfik](https://github.com/traefik/traefik),
-[ML Workspace](https://github.com/ml-tooling/ml-workspace),
-[Grafana](https://github.com/grafana/grafana),
-[InfluxDB](https://github.com/influxdata/influxdb),
-[MQTT](https://github.com/eclipse/mosquitto) and
-[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)
-open-source components.
-These software components have their own licenses.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🏭</font></font><g-emoji class="g-emoji" alias="left_right_arrow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">↔️</font></font></g-emoji><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👥 数字孪生即服务</font></font></h1><a id="user-content-factory-left_right_arrow-busts_in_silhouette-digital-twin-as-a-service" class="anchor" aria-label="永久链接：:factory: :left_right_arrow: :busts_in_silhouette: 数字孪生即服务" href="#factory-left_right_arrow-busts_in_silhouette-digital-twin-as-a-service"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">😀 动机</font></font></h2><a id="user-content-grinning-motivation" class="anchor" aria-label="永久链接：:grinning: 动机" href="#grinning-motivation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数字孪生即服务 (DTaaS) 软件平台可用于  </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建、使用和共享</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  数字孪生 (DT)。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用平台上可重复使用的 DT 组件在软件平台上构建 DT。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用软件平台上的 DT。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：与其他用户共享现成可用的 DT。还可以与其他用户共享一个 DT 提供的服务。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 安装和使用</font></font></h2><a id="user-content-rocket-install-and-use" class="anchor" aria-label="永久链接：:rocket: 安装和使用" href="#rocket-install-and-use"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/INTO-CPS-Association/DTaaS/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请使用发布页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+及其</font></font><a href="https://into-cps-association.github.io/DTaaS/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上提供的最新版本</font><font style="vertical-align: inherit;">
+来安装和使用 DTaaS 软件平台。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+如果有改进软件的建议，</font><font style="vertical-align: inherit;">欢迎您提出</font></font><a href="https://github.com/INTO-CPS-Association/DTaaS/issues/new/choose"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现此 repo 对您的研究有用，请考虑引用我们的论文：</font></font></p>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@INPROCEEDINGS</span>{<span class="pl-en">talasila2023dtaas</span>,
+  <span class="pl-s">author</span>=<span class="pl-s"><span class="pl-pds">{</span>Talasila, Prasad and Gomes, Cláudio and Mikkelsen, Peter Høgh and Arboleda, Santiago Gil and Kamburjan, Eduard and Larsen, Peter Gorm<span class="pl-pds">}</span></span>,
+  <span class="pl-s">booktitle</span>=<span class="pl-s"><span class="pl-pds">{</span>2023 IEEE Smart World Congress (SWC)<span class="pl-pds">}</span></span>,
+  <span class="pl-s">title</span>=<span class="pl-s"><span class="pl-pds">{</span>Digital Twin as a Service (DTaaS): A Platform for Digital Twin Developers and Users<span class="pl-pds">}</span></span>, 
+  <span class="pl-s">year</span>=<span class="pl-s"><span class="pl-pds">{</span>2023<span class="pl-pds">}</span></span>,
+  <span class="pl-s">pages</span>=<span class="pl-s"><span class="pl-pds">{</span>1-8<span class="pl-pds">}</span></span>,
+  <span class="pl-s">keywords</span>=<span class="pl-s"><span class="pl-pds">{</span>digital twins;physical twin;automation;life cycle;composition<span class="pl-pds">}</span></span>,
+  <span class="pl-s">doi</span>=<span class="pl-s"><span class="pl-pds">{</span>10.1109/SWC57546.2023.10448890<span class="pl-pds">}</span></span>}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@INPROCEEDINGS{talasila2023dtaas,
+  author={Talasila, Prasad and Gomes, Cláudio and Mikkelsen, Peter Høgh and Arboleda, Santiago Gil and Kamburjan, Eduard and Larsen, Peter Gorm},
+  booktitle={2023 IEEE Smart World Congress (SWC)},
+  title={Digital Twin as a Service (DTaaS): A Platform for Digital Twin Developers and Users}, 
+  year={2023},
+  pages={1-8},
+  keywords={digital twins;physical twin;automation;life cycle;composition},
+  doi={10.1109/SWC57546.2023.10448890}}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️ 开发设置</font></font></h2><a id="user-content-hammer_and_wrench-development-setup" class="anchor" aria-label="永久链接：:hammer_and_wrench: 开发设置" href="#hammer_and_wrench-development-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个 mono repo，包含 Web 客户端和微服务代码库的代码。Web</font></font><a href="/INTO-CPS-Association/DTaaS/blob/feature/distributed-demo/client"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+</font></font><a href="/INTO-CPS-Association/DTaaS/blob/feature/distributed-demo/servers/lib"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和
+</font></font><a href="/INTO-CPS-Association/DTaaS/blob/feature/distributed-demo/servers/execution/runner"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+微服务目前均可用。其他一切都在进行中。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅
+</font></font><a href="https://into-cps-association.github.io/DTaaS/development/developer/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+以了解更多详细信息。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚖️ 许可证</font></font></h2><a id="user-content-balance_scale-license" class="anchor" aria-label="永久链接: :balance_scale: 许可证" href="#balance_scale-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该软件归
+</font></font><a href="https://into-cps.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">INTO-CPS 协会所有，并根据</font></font></a><font style="vertical-align: inherit;"></font><a href="/INTO-CPS-Association/DTaaS/blob/feature/distributed-demo/LICENSE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">INTO-CPS 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+使用</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 DTaaS 中包含的第三方软件的详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/INTO-CPS-Association/DTaaS/blob/feature/distributed-demo/docs/third-party.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三方。</font></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
